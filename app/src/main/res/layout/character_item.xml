@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="160dp"
+    android:background="#EFEDED">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="366dp"
+        android:layout_height="149dp"
+        android:translationY="5dp"
+        app:cardCornerRadius="7dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.48"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
+
+        <TextView
+            android:id="@+id/charName"
+            android:layout_width="182dp"
+            android:layout_height="61dp"
+            android:fontFamily="sans-serif-light"
+            android:text="TextView"
+            android:textColor="#000000"
+            android:textSize="25sp"
+            android:textStyle="normal"
+            android:translationX="180dp"
+            android:translationY="10dp" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="160dp"
+            android:layout_height="148dp"
+            tools:srcCompat="@tools:sample/avatars" />
+
+        <ImageView
+            android:id="@+id/vision"
+            android:layout_width="25dp"
+            android:layout_height="24dp"
+            android:translationX="280dp"
+            android:translationY="75dp"
+            tools:srcCompat="@tools:sample/avatars" />
+
+        <TextView
+            android:id="@+id/objectType"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-thin"
+            android:text="Constellation:"
+            android:textStyle="bold|italic"
+            android:translationX="180dp"
+            android:translationY="75dp" />
+    </androidx.cardview.widget.CardView>
+</androidx.constraintlayout.widget.ConstraintLayout>
